@@ -18,12 +18,12 @@ RUN_MODE = 'STAGING'
 DATABASES.update(
     {
         'default': {
-            'ENGINE': 'django.db.backends.sqlite3',
-            'NAME': 'stag_db',  # 数据库名
-            # 'USER': 'root',  # 数据库用户
-            # 'PASSWORD': 'Uqv.83WuNm',  # 数据库密码
-            # 'HOST': '10.0.1.192',  # 数据库主机
-            # 'PORT': '3306',  # 数据库端口
+            'ENGINE': 'django.db.backends.mysql',
+            'NAME': 'Stag_DB',  # 数据库名
+            'USER': 'root',  # 数据库用户
+            'PASSWORD': 'Uqv.83WuNm',  # 数据库密码
+            'HOST': '10.0.1.192',  # 数据库主机
+            'PORT': '3306',  # 数据库端口
         },
     }
 )
